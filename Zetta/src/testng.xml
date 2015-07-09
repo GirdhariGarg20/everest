@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name  = "Zetta Login TestCases">
+<test name=  "Login With Valid Credentials">
+<classes>
+<class name = "testcases.testcases_Login.LG_01"></class>
+</classes>
+</test>
+<test name=  "Login With InValid Credentials">
+<classes>
+<class name = "testcases.testcases_Login.LG_02"></class>
+
+</classes>
+
+
+</test>
+
+</suite>
+
