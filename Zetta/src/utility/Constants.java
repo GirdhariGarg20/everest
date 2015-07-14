@@ -4,8 +4,9 @@ package utility;
 public class Constants {
 	public static final String browser = "firfox";
 	public static final String URL = "http://ucpc-app8-15:8280/ZettaUI/index.html";
-	public static final String screenshot_path =  System.getProperty("user.dir")+"\\src\\screenshots\\";
-	public static final String excelpath = System.getProperty("user.dir")+ "\\src\\testdata\\";
+	public static final String screenshot_path =  "C:\\Users\\824671\\git\\repository\\Zetta\\src\\testdata\\Exceldata.xlsx" ;
+			// System.getProperty("user.dir")+"\\src\\screenshots\\";
+	public static final String excelpath = System.getProperty("user.dir")+ "\\git\\repository\\src\\testdata\\";
 	public static final String locator_filename ="Locatordata.xlsx"; 
 	public static final String datafile = "Exceldata.xlsx";
 	

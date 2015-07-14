@@ -40,6 +40,8 @@ public class TestReport implements ITestListener {
 	public void onTestStart(ITestResult arg0) {
 		// TODO Auto-generated method stub
 		
+		System.out.print("test case on On Start Test Case");
+		
 	}
 
 	@Override

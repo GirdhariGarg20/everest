@@ -1,4 +1,4 @@
-package testcases.testcases_Login;
+package testcases_Login;
 
 import modules.Login_Module;
 import org.apache.log4j.xml.DOMConfigurator;

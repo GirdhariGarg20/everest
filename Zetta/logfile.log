@@ -97,3 +97,42 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 2015-07-08 19:19:17,059 INFO  [Log] X 
 2015-07-08 19:19:17,059 INFO  [Log] X 
 2015-07-08 19:19:17,059 INFO  [Log] X 
+2015-07-10 14:35:35,252 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:35:35,268 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:35:35,268 INFO  [Log] *************************** LG_01 ******************************* 
+2015-07-10 14:35:35,268 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:35:35,268 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:35:35,268 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:36:42,489 INFO  [Log] 233531 Entered in Usernamre Field 
+2015-07-10 14:36:42,567 INFO  [Log] Daksh123 Entered in Password Field 
+2015-07-10 14:36:42,739 INFO  [Log] Login Button Clicked 
+2015-07-10 14:36:42,786 WARN  [Log] package testcases.testcases_Login|| Class LG_01 ||Method mainUnable to locate element: {"method":"xpath","selector":".//*[@id='navbar-container']/div[2]/ul/li[2]/a/span/b"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'inf-sdt-256', ip: '10.129.34.58', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=.//*[@id='navbar-container']/div[2]/ul/li[2]/a/span/b}
+Session ID: 1de3ce1c-1782-49f6-b9b4-cf8fe2a86419
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=17.0.5}] 
+2015-07-10 14:36:42,801 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2015-07-10 14:36:42,801 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX   End Test Case      XXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2015-07-10 14:36:42,801 INFO  [Log] X 
+2015-07-10 14:36:42,801 INFO  [Log] X 
+2015-07-10 14:36:42,801 INFO  [Log] X 
+2015-07-10 14:36:42,801 INFO  [Log] X 
+2015-07-10 14:36:43,223 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:36:43,223 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:36:43,223 INFO  [Log] *************************** LG_02 ******************************* 
+2015-07-10 14:36:43,223 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:36:43,223 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:36:43,223 INFO  [Log] ******************************************************************************* 
+2015-07-10 14:36:56,454 INFO  [Log] 796419 Entered in Usernamre Field 
+2015-07-10 14:36:56,485 INFO  [Log] Daksh@123  Entered in Password Field 
+2015-07-10 14:36:57,156 INFO  [Log] Login Button Clicked 
+2015-07-10 14:36:57,156 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2015-07-10 14:36:57,156 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX   End Test Case      XXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2015-07-10 14:36:57,156 INFO  [Log] X 
+2015-07-10 14:36:57,156 INFO  [Log] X 
+2015-07-10 14:36:57,156 INFO  [Log] X 
+2015-07-10 14:36:57,156 INFO  [Log] X 

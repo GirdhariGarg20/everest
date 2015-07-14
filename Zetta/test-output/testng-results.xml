@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18538" started-at="2015-07-08T13:48:58Z" finished-at="2015-07-08T13:49:17Z">
+  <suite name="Default suite" duration-ms="126" started-at="2015-07-13T10:58:38Z" finished-at="2015-07-13T10:58:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18538" started-at="2015-07-08T13:48:58Z" finished-at="2015-07-08T13:49:17Z">
-      <class name="testcases.testcases_Login.LG_01">
-        <test-method status="PASS" signature="before()[pri:0, instance:testcases.testcases_Login.LG_01@6b466679]" name="before" is-config="true" duration-ms="15640" started-at="2015-07-08T19:18:58Z" finished-at="2015-07-08T19:19:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testcases.testcases_Login.LG_01@6b466679]" name="main" duration-ms="2218" started-at="2015-07-08T19:19:14Z" finished-at="2015-07-08T19:19:16Z">
+    <test name="Default test" duration-ms="126" started-at="2015-07-13T10:58:38Z" finished-at="2015-07-13T10:58:38Z">
+      <class name="testcases.testcases_Login.Login">
+        <test-method status="FAIL" signature="main(java.lang.String, java.lang.String)[pri:0, instance:testcases.testcases_Login.Login@14ed6010]" name="main" duration-ms="0" started-at="2015-07-13T16:28:38Z" data-provider="Login_data" finished-at="2015-07-13T16:28:38Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:149)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testcases.testcases_Login.LG_01@6b466679]" name="after" is-config="true" duration-ms="23" started-at="2015-07-08T19:19:17Z" finished-at="2015-07-08T19:19:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- testcases.testcases_Login.LG_01 -->
+      </class> <!-- testcases.testcases_Login.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

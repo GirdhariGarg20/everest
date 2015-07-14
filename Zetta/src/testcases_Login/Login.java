@@ -1,4 +1,4 @@
-package testcases.testcases_Login;
+package testcases_Login;
 
 import modules.Login_Module;
 
@@ -7,14 +7,17 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import bsh.BshClassManager.Listener;
 import page_objects.BaseClass;
 import utility.DataProviderClass;
 import utility.Exceldata;
-
+import utility.TestReport;
 import utility.Utills;
 
+@Listeners(value = TestReport.class)
 public class Login {
 	/*public static WebDriver driver;
 	@BeforeClass
@@ -39,6 +42,7 @@ public class Login {
 		//System.out.println(data);
 		
 		Utills.take("Login","username text box");
+		
 		
 		
 		
